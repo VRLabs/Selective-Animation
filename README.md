@@ -17,6 +17,10 @@ When pointed at a player, both raycasts will collide with the player only on the
 
 ## Install guide
 
+If you dont already have FinalIK installed, download and install the [FinalIK Stub](https://github.com/VRLabs/Final-IK-Stub).
+
+**Note: Testing in Unity is not possible when using the FinalIK Stub!**
+
 Merge the FX controller to your own FX controller using the [Avatar 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
 Put ``Exclusive Animation.prefab`` at the base of your Unity scene, which will give it base Unity scaling.
