@@ -706,7 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6643846621137309779}
   m_Layer: 0
-  m_Name: Target
+  m_Name: Exclusive Animation Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
