@@ -859,7 +859,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - SelectiveAnimation/Ready
+  - SelectiveAnimation/IsSelected
 --- !u!1 &6643846622660434271
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,10 +930,10 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - SelectiveAnimation/Ready
+  - SelectiveAnimation/IsSelected
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: SelectiveAnimation/Ready
+  parameter: SelectiveAnimation/IsSelected
   minVelocity: 0.05
