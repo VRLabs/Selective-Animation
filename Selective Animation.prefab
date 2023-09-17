@@ -323,7 +323,7 @@ MonoBehaviour:
   solver:
     layers:
       serializedVersion: 2
-      m_Bits: 1537
+      m_Bits: 3585
     maxStep: 25
     heightOffset: 0
     footSpeed: 100000000
@@ -674,7 +674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6643846620654561467}
   m_Layer: 0
-  m_Name: Exclusive Animation
+  m_Name: Selective Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,7 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6643846621137309779}
   m_Layer: 0
-  m_Name: Exclusive Animation Target
+  m_Name: Selective Animation Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -854,12 +854,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 0}
   shapeType: 0
-  radius: 0.2
+  radius: 0.1
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - ExclusiveAnimation/Ready
+  - SelectiveAnimation/IsSelected
 --- !u!1 &6643846622660434271
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,15 +925,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 0}
   shapeType: 0
-  radius: 0.2
+  radius: 0.1
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - ExclusiveAnimation/Ready
+  - SelectiveAnimation/IsSelected
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: ExclusiveAnimation/Ready
+  parameter: SelectiveAnimation/IsSelected
   minVelocity: 0.05

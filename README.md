@@ -1,9 +1,9 @@
-# Exclusive Animation
+# Selective Animation
 
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Exclusive-Animation/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Exclusive-Animation/total?label=Downloads)](https://github.com/VRLabs/Exclusive-Animation/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Selective-Animation/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Selective-Animation/total?label=Downloads)](https://github.com/VRLabs/Selective-Animation/releases/latest)
 
 System for playing animations for only a single player in an instance.
 
@@ -23,17 +23,17 @@ If you dont already have FinalIK installed, download and install the [FinalIK St
 
 Merge the FX controller to your own FX controller using the [Avatar 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
-Put ``Exclusive Animation.prefab`` at the base of your Unity scene, which will give it base Unity scaling.
+Put ``Selective Animation.prefab`` at the base of your Unity scene, which will give it base Unity scaling.
 
 Unpack the prefab by right clicking it and move the prefab onto the base of your avatar.
 
-Expand the prefab and locate ``Exclusive Animation Target``. Move this object to anywhere on your avatar and adjust the rotation so the arrow points in the desired direction.
+Expand the prefab and locate ``Selective Animation Target``. Move this object to anywhere on your avatar and adjust the rotation so the arrow points in the desired direction.
 
 The arrow can be disabled or deleted.
 
 ## How to use
 
-Add the bool ``ExclusiveAnimation/Ready`` to your FX controller.
+Add the bool ``SelectiveAnimation/Ready`` to your FX controller.
 
 When the system is pointing at a player, the bool will be ``True`` only for the player it is pointing at.
 
@@ -45,11 +45,11 @@ Wakam
 
 ## Downloads
 
-You can grab the latest version of the Exclusive Animation in [Releases](https://github.com/VRLabs/Exclusive-Animation/releases/latest).
+You can grab the latest version of the Selective Animation in [Releases](https://github.com/VRLabs/Selective-Animation/releases/latest).
 
 ## License
 
-Exclusive Animation is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Exclusive-Animation/blob/main/LICENSE)
+Selective Animation is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Selective-Animation/blob/main/LICENSE)
 
 ## Contact us
 
