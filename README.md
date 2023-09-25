@@ -10,7 +10,7 @@
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
 [![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
 
-System for playing animations for only a single player in an instance.
+System for playing animations for only a single player in an instance
 
 ![Alt text]()
 
@@ -25,17 +25,19 @@ System for playing animations for only a single player in an instance.
 
 ## How it works
 
-* The system is built using two [raycasts](https://github.com/VRLabs/Raycast-Prefab).
+* The system is built using two [Raycasts](https://github.com/VRLabs/Raycast-Prefab).
 * The first raycast collides with the world, remote players and the local player and has a Contact Sender attached to it. The second raycast collides only with the local player and has a Contact Receiver attached to it.
 * When pointed at a player, both raycasts will collide with the player only on their screen, because the PlayerLocal collider only exists on their side. This means the Contact Sender and Receiver will only make contact for the player the system is pointing at.
 
 ## Install guide
 
-* If you dont already have FinalIK installed, download and install the [FinalIK Stub](https://github.com/VRLabs/Final-IK-Stub).
-  * Note: Testing in Unity is not possible when using the FinalIK Stub!
+* If you dont already have [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) installed, download and install the [Final IK Stub](https://github.com/VRLabs/Final-IK-Stub).
+  * Note: Testing in Unity is not possible when using the Final IK Stub!
 * Drag & drop the ``Selective Animation`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
-* Expand the prefab and locate ``Selective Animation Target``. Move this object to anywhere on your avatar and adjust the rotation so the arrow points in the desired direction.
+* Expand the prefab hierarchy and find ``Selective Animation Target``
+* Move ``Selective Animation Target`` outside of ``Selective Animation`` and place it anywhere in your avatars hierarchy as needed.
+* Adjust the rotation so the arrow points in the desired direction.
 * The arrow can be disabled or deleted.
 
 ## How to use
@@ -43,6 +45,10 @@ System for playing animations for only a single player in an instance.
 * Add the bool ``SelectiveAnimation/IsSelected`` to your FX controller.
 * When the system is pointing at a player, the bool will be ``True`` only for the player it is pointing at.
 * Use the bool as a transition condition to make animations visible to only the one player.
+
+## Additional notes
+
+* VRChat uses Final IK v1.9. If you are using a different version you may experience differences in behavior when testing with Final IK.
 
 ## Performance stats
 
