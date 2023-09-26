@@ -31,6 +31,8 @@ System for playing animations for only a single player in an instance
 
 ## Install guide
 
+https://github.com/VRLabs/Selective-Animation/assets/76777936/d9cfd3e4-6785-4372-a781-fb930ce6e2a6
+
 * If you dont already have [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) installed, download and install the [Final IK Stub](https://github.com/VRLabs/Final-IK-Stub).
   * Note: Testing in Unity is not possible when using the Final IK Stub!
 * Drag & drop the ``Selective Animation`` prefab into the base of your Hierarchy.
