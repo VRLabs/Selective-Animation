@@ -26,7 +26,7 @@ System for playing animations for only a single player in an instance
 ## How it works
 
 * The system is built using two [Raycasts](https://github.com/VRLabs/Raycast-Prefab).
-* The first raycast collides with the world, remote players and the local player and has a Contact Sender attached to it. The second raycast collides only with the local player and has a Contact Receiver attached to it.
+* The two raycasts are slightly offset from each other, and one has a contact sender on it, while the other a contact receiver on it.
 * When pointed at a player, both raycasts will collide with the player only on their screen, because the PlayerLocal collider only exists on their side. This means the Contact Sender and Receiver will only make contact for the player the system is pointing at.
 
 ## Install guide
@@ -83,6 +83,8 @@ Selective Animation
 
 ## Contributors
 
+* [hfcRed](https://hfcred.carrd.co/)
+* [jellejurre](https://github.com/jellejurre)
 * Wakam
 
 ## License
