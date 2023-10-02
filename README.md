@@ -39,8 +39,8 @@ https://github.com/VRLabs/Selective-Animation/assets/76777936/d9cfd3e4-6785-4372
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * Expand the prefab hierarchy and find ``Selective Animation Target``
 * Move ``Selective Animation Target`` outside of ``Selective Animation`` and place it anywhere in your avatars hierarchy as needed.
-* Adjust the rotation so the arrow points in the desired direction.
-* The arrow can be disabled or deleted.
+* Adjust the rotation so the laser points in the desired direction.
+* The laser can be disabled or deleted.
 
 ## How to use
 
@@ -65,20 +65,19 @@ Contact Senders:    1
 ```html
 Selective Animation
 |-Raycast Container
-|  |-World Raycast
+|  |-PlayerLocal Raycast Sender
 |  |  |-LimbIK
 |  |  |  |-Grounder
 |  |  |  |  |-Offset
 |  |  |  |  |  |-End
-|  |-Player Raycast
+|  |-PlayerLocal Raycast Receiver
 |  |  |-LimbIK
 |  |  |  |-Grounder
 |  |  |  |  |-Offset
 |  |  |  |  |  |-End
 |  |-Sender
-|  |  |-Sphere
 |  |-Receiver
-|  |-Forward
+|  |-Laser
 |-Selective Animation Target
 ```
 
