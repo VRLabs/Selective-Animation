@@ -12,7 +12,7 @@
 
 System for playing animations for only a single player in an instance
 
-![SelectiveAnimation](https://github.com/VRLabs/Selective-Animation/assets/76777936/612a6fe5-ff54-4ab1-b3af-e6b98c8e6610)
+![SelectiveAnimation](https://github.com/VRLabs/Selective-Animation/assets/76777936/7c51b935-5937-42ef-b645-3781e64d38ef)
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Selective-Animation/releases/latest)
 
