@@ -1,0 +1,25 @@
+{
+    "name": "dev.vrlabs.selective-animation",
+    "displayName": "Selective Animation",
+    "version": "1.0.999",
+    "unity": "2019.4",
+    "description": "System for playing animations for only a single player in an instance",
+    "author": {
+        "name": "VRLabs",
+        "email": "mail@vrlabs.dev",
+        "url": "https://vrlabs.dev"
+    },
+    "siteUrl": "https://github.com/VRLabs/Selective-Animation",
+    "vpmDependencies": {
+        "dev.vrlabs.instancer": "1.x"
+    },
+    "legacyFolders": {
+        "Assets\\VRLabs\\Selective Animation": "7a21e49786371eb4aa7d72f69824cf71"
+    },
+    "unityPackageDestinationFolder": "Assets/VRLabs/Selective Animation",
+    "unitypackageDestinationFolderMetas": {
+        "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
+        "Assets/VRLabs/Selective Animation": "7a21e49786371eb4aa7d72f69824cf71"
+    },
+    "vccRepoCategory": "components"
+}
