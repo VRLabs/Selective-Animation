@@ -2,6 +2,7 @@
     "name": "dev.vrlabs.selective-animation",
     "displayName": "Selective Animation",
     "version": "1.0.999",
+    "license": "MIT",
     "unity": "2019.4",
     "description": "System for playing animations for only a single player in an instance",
     "author": {
