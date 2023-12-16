@@ -18,7 +18,7 @@ namespace VRLabs.SelectiveAnimation
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Selective Animation")]
+		[MenuItem("VRLabs/Create Instance/Selective Animation")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
