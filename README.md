@@ -16,8 +16,8 @@ System for playing animations for only a single player in an instance
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Selective-Animation/releases/latest)
 
-<!-- 
-### 📦 [Add to VRChat Creator Companion]() -->
+
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.selective-animation)
 
 </div>
 
