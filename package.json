@@ -3,7 +3,7 @@
   "displayName": "Selective Animation",
   "version": "1.0.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "System for playing animations for only a single player in an instance",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Selective Animation": "7a21e49786371eb4aa7d72f69824cf71"
-  }
+  },
+  "questCompatibility": "none"
 }
