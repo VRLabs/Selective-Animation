@@ -4,7 +4,8 @@
 
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Selective-Animation/total?label=Downloads)](https://github.com/VRLabs/Selective-Animation/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Selective-Animation/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)](https://img.shields.io/badge/Quest-Incompatible-red?logo=Meta)
+[![Generic badge](https://img.shields.io/badge/Unity-2022.3.22f1-lightblue?logo=Unity)](https://unity.com/releases/editor/whats-new/2022.3.22)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
 
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
@@ -15,7 +16,6 @@ System for playing animations for only a single player in an instance
 ![SelectiveAnimation](https://github.com/VRLabs/Selective-Animation/assets/76777936/7c51b935-5937-42ef-b645-3781e64d38ef)
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Selective-Animation/releases/latest)
-
 
 ### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.selective-animation)
 
@@ -32,7 +32,6 @@ System for playing animations for only a single player in an instance
 ## Install guide
 
 https://github.com/VRLabs/Selective-Animation/assets/76777936/3dc5d6d8-8855-4bef-9398-62fd3522a69e
-
 
 * If you dont already have [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) installed, download and install the [Final IK Stub](https://github.com/VRLabs/Final-IK-Stub).
   * Note: Testing in Unity is not possible when using the Final IK Stub!
@@ -57,6 +56,7 @@ https://github.com/VRLabs/Selective-Animation/assets/76777936/3dc5d6d8-8855-4bef
 
 ```c++
 Constraints:        3
+Constraint Depth:   2
 Contact Receivers:  1
 Contact Senders:    1
 ```
@@ -105,4 +105,3 @@ Selective Animation is available as-is under MIT. For more information see [LICE
 [<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
 
 </div>
-
