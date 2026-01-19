@@ -49,6 +49,7 @@ MonoBehaviour:
   solver:
     IKPosition: {x: 0, y: -100, z: 0}
     IKPositionWeight: 1
+    initiated: 0
     root: {fileID: 9085877744183016582}
     target: {fileID: 6239221760885812967}
     IKRotationWeight: 1
@@ -509,6 +510,8 @@ MonoBehaviour:
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
+  contentTypes: -1
   collisionTags:
   - SelectiveAnimation/IsSelected
 --- !u!114 &9003179552635146531
@@ -733,6 +736,7 @@ MonoBehaviour:
   solver:
     IKPosition: {x: 0, y: -100, z: 0}
     IKPositionWeight: 1
+    initiated: 0
     root: {fileID: 4953039094046897278}
     target: {fileID: 3769214108623267651}
     IKRotationWeight: 1
@@ -824,11 +828,12 @@ MonoBehaviour:
   height: 2
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
+  localOnly: 0
+  contentTypes: -1
   collisionTags:
   - SelectiveAnimation/IsSelected
   allowSelf: 1
   allowOthers: 0
-  localOnly: 0
   receiverType: 0
   parameter: SelectiveAnimation/IsSelected
   minVelocity: 0.05
@@ -1022,7 +1027,7 @@ MonoBehaviour:
   GlobalWeight: 1
   TargetTransform: {fileID: 0}
   SolveInLocalSpace: 0
-  FreezeToWorld: 1
+  FreezeToWorld: 0
   RebakeOffsetsWhenUnfrozen: 0
   Locked: 1
   Sources:
